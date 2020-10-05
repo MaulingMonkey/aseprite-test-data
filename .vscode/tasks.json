@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "presentation": {
+        "clear": true
+    },
+    "problemMatcher": ["$rustc"],
+    "type": "shell",
+    "options": { "cwd": "${workspaceFolder}", "env": { "RUST_BACKTRACE": "1" } },
+    "tasks": [
+        { "group": { "kind": "build", "isDefault": true }, "label": "build", "dependsOrder": "sequence", "dependsOn": ["reexport", "cargo build --all-targets", "cargo doc"] },
+
+        {
+            "label":    "reexport",
+            "windows":  { "command": "data\\1.2.25\\reexport.cmd" },
+        },
+        {
+            "label":    "cargo build --all-targets",
+            "command":  "cargo build --all-targets",
+        },
+        {
+            "label":    "cargo doc",
+            "command":  "cargo doc",
+        },
+
+
+
+        {
+            "label":    "open docs",
+            "windows":  { "command": "start \"\"    \"${workspaceFolder}\\target\\doc\\aseprite_test_data\\index.html\"" },
+            "linux":    { "command": "xdg-open      \"${workspaceFolder}\\target\\doc\\aseprite_test_data\\index.html\"" },
+            "osx":      { "command": "open          \"${workspaceFolder}\\target\\doc\\aseprite_test_data\\index.html\"" },
+        },
+        {
+            "label":    "open github",
+            "windows":  { "command": "start \"\"    \"https://github.com/MaulingMonkey/aseprite-test-data" },
+            "linux":    { "command": "xdg-open      \"https://github.com/MaulingMonkey/aseprite-test-data" },
+            "osx":      { "command": "open          \"https://github.com/MaulingMonkey/aseprite-test-data" },
+        },
+        {
+            "label":    "open docs.rs",
+            "windows":  { "command": "start \"\"    \"https://docs.rs/aseprite-test-data" },
+            "linux":    { "command": "xdg-open      \"https://docs.rs/aseprite-test-data" },
+            "osx":      { "command": "open          \"https://docs.rs/aseprite-test-data" },
+        },
+    ]
+}
