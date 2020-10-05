@@ -1,0 +1,132 @@
+{ "frames": [
+   {
+    "filename": "complex 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 100
+   },
+   {
+    "filename": "complex 1.aseprite",
+    "frame": { "x": 8, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 200
+   },
+   {
+    "filename": "complex 2.aseprite",
+    "frame": { "x": 16, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 300
+   },
+   {
+    "filename": "complex 3.aseprite",
+    "frame": { "x": 24, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 400
+   },
+   {
+    "filename": "complex 4.aseprite",
+    "frame": { "x": 32, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 500
+   },
+   {
+    "filename": "complex 5.aseprite",
+    "frame": { "x": 40, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 600
+   },
+   {
+    "filename": "complex 6.aseprite",
+    "frame": { "x": 48, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 700
+   },
+   {
+    "filename": "complex 7.aseprite",
+    "frame": { "x": 56, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 800
+   },
+   {
+    "filename": "complex 8.aseprite",
+    "frame": { "x": 64, "y": 0, "w": 8, "h": 8 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 8 },
+    "sourceSize": { "w": 8, "h": 8 },
+    "duration": 900
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.25-x64",
+  "image": "complex.aseprite.png",
+  "format": "I8",
+  "size": { "w": 72, "h": 8 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "start", "from": 0, "to": 2, "direction": "forward" },
+   { "name": "forward", "from": 0, "to": 1, "direction": "forward" },
+   { "name": "ping-pong", "from": 2, "to": 3, "direction": "pingpong" },
+   { "name": "reverse", "from": 4, "to": 5, "direction": "reverse" },
+   { "name": "end", "from": 6, "to": 8, "direction": "forward" },
+   { "name": "red", "from": 6, "to": 7, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Mode Layers", "color": "#6acd5bff", "data": "Mode Layers User Data" },
+   { "name": "Layer Normal", "group": "Mode Layers", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer Darken", "group": "Mode Layers", "opacity": 255, "blendMode": "darken" },
+   { "name": "Layer Multiply", "group": "Mode Layers", "opacity": 255, "blendMode": "multiply" },
+   { "name": "Layer Color Burn", "group": "Mode Layers", "opacity": 255, "blendMode": "color_burn" },
+   { "name": "Layer Lighten", "group": "Mode Layers", "opacity": 255, "blendMode": "lighten" },
+   { "name": "Layer Screen", "group": "Mode Layers", "opacity": 255, "blendMode": "screen" },
+   { "name": "Layer Color Dodge", "group": "Mode Layers", "opacity": 255, "blendMode": "color_dodge" },
+   { "name": "Layer Addition", "group": "Mode Layers", "opacity": 255, "blendMode": "addition" },
+   { "name": "Layer Overlay", "group": "Mode Layers", "opacity": 255, "blendMode": "overlay" },
+   { "name": "Layer Soft Light", "group": "Mode Layers", "opacity": 255, "blendMode": "soft_light" },
+   { "name": "Layer Hard Light", "group": "Mode Layers", "opacity": 255, "blendMode": "hard_light" },
+   { "name": "Layer Difference", "group": "Mode Layers", "opacity": 255, "blendMode": "difference" },
+   { "name": "Layer Exclusion", "group": "Mode Layers", "opacity": 255, "blendMode": "exclusion" },
+   { "name": "Layer Subtract", "group": "Mode Layers", "opacity": 255, "blendMode": "subtract" },
+   { "name": "Layer Divide", "group": "Mode Layers", "opacity": 255, "blendMode": "divide" },
+   { "name": "Layer Hue", "group": "Mode Layers", "opacity": 255, "blendMode": "hsl_hue" },
+   { "name": "Layer Saturation", "group": "Mode Layers", "opacity": 255, "blendMode": "hsl_saturation" },
+   { "name": "Layer Color", "group": "Mode Layers", "opacity": 255, "blendMode": "hsl_color" },
+   { "name": "Layer Luminosity", "group": "Mode Layers", "opacity": 255, "blendMode": "hsl_luminosity" },
+   { "name": "Layer Opacity 127", "opacity": 127, "blendMode": "normal" },
+   { "name": "Layer Locked", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer User Data", "opacity": 255, "blendMode": "normal", "color": "#f7a547ff", "data": "Orange Layer" },
+   { "name": "Layer Linked Cels", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer Even Cels", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+   { "name": "Top Right Pivot", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 5, "y": 1, "w": 2, "h": 2 }, "pivot": {"x": 6, "y": 2 } }] },
+   { "name": "9 Slice", "color": "#0000ffff", "keys": [{ "frame": 0, "bounds": {"x": 1, "y": 1, "w": 6, "h": 6 }, "center": {"x": 2, "y": 2, "w": 2, "h": 2 } }] },
+   { "name": "Top Left", "color": "#6acd5bff", "data": "Top Left User Data", "keys": [{ "frame": 0, "bounds": {"x": 1, "y": 1, "w": 2, "h": 2 } }] }
+  ]
+ }
+}
